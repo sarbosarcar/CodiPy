@@ -2,6 +2,9 @@
 ## A GUI-based code generation platform built with OpenAI API using the Codex model
 #### *Constructed in partial fulfilment of the CS year-end project 2022-23*
 
+![image](https://user-images.githubusercontent.com/70145448/192116144-0db7e96b-17ed-4114-9ae6-448296039f0a.png)
+
+
 ## Prerequisites
 + Python (preferably v3.9+) [see list of dependencies](requirements.txt)
 + Browser (preferably Chrome, Edge, Opera, Firefox or Safari)
