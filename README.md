@@ -17,6 +17,8 @@
 
 ## Contributors
 
+[sleepbot-zapp](https://github.com/sleepbot-zapp)
+
 ## Acknowledgements
 
 + Bootstrap for the main jumbotron theme
