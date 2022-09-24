@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*:before,
+*:after{
+    margin-top: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    font-family: Poppins;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    transition: 0.55s ease-out 100ms;
+    padding: 5px;
+}
+li a:hover{
+    color: rgba(
+        255,
+        255,
+        255,
+        0.13
+    );
+}
+nav li{
+    float: right;
+}
+body{
+    background-color: #080716;
+}
+.content{
+    height: 520px;
+    width: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.shape:first-child{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    position: absolute;
+    border-radius: 50%;
+    left: -80px;
+    top: -80px;
+    animation: move 5s infinite;
+}
+.shape:last-child{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    position: absolute;
+    border-radius: 50%;
+    right: -30px;
+    bottom: -80px;
+    animation: move 5s infinite;
+}
+form{
+    padding: 50px 35px;
+    height: 520px;
+    width: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.13
+    );
+    position: absolute;
+    border-radius: 10px;
+    border-color: rgba(
+        255,
+        255,
+        255,
+        0.1
+    );
+    box-shadow: 0 0 40px rgba(
+        8,
+        7,
+        16,
+        0.6
+    );
+    backdrop-filter: blur(10px);
+}
+form *{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 2em;
+}
+input{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.07
+    );
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+#username{
+    display: block;
+    margin-top: 8px;
+}
+#password{
+    width: 75%;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+label{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 42px;
+    display: block;
+}
+#pass{
+    line-height: 20px;
+}
+
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #fff;
+    color: #080710;
+    font-size: 18px;
+    padding: 16px 0;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.55s ease-out 100ms;
+}
+button:hover{
+    background-color: #bbb;
+}
+#show{
+    margin-top: 18px;
+    height: 50px;
+    padding:10px;
+    display: inline;
+    width: 15%;
+    margin-left: 5%;
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.07
+    );
+    font-size: larger;
+}
+
+@keyframes move {
+    0%{
+        transform: translate(-5%, -5%);
+    }
+    50%{
+        transform: translate(-10%, -10%);
+    }
+    100%{
+        transform: translate(-5%, -5%);
+    }
+}
