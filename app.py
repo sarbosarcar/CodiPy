@@ -8,7 +8,7 @@ load_dotenv()
 app = Flask(__name__, template_folder='templates')
 
 
-@app.get('/query')
+@app.get('/query_t')
 def get_query():
     command = '''The code generated will be displayed here. This is some sample
               text used for filling the space.'''
