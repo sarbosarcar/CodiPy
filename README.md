@@ -1,4 +1,4 @@
-# Codexed
+# Codipy
 ## A GUI-based code generation platform built with OpenAI API using the Codex model
 #### *Constructed in partial fulfilment of the CS year-end project 2022-23*
 
