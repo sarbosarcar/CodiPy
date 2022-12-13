@@ -18,10 +18,6 @@
 ## Usage
 + Once the server is up and running, visit the concerned routes and follow the instructions provided on the page. The GUI includes a login/signup page, the main query page and an about page.
 
-## Contributors
-
-[sleepbot-zapp](https://github.com/sleepbot-zapp)
-
 ## Acknowledgements
 
 + Bootstrap for the main jumbotron theme
