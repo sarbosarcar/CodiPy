@@ -1,9 +1,6 @@
 from flask import Flask, request
 from flask.templating import render_template
-from dotenv import load_dotenv
 import os
-
-load_dotenv()
 
 app = Flask(__name__, template_folder='templates')
 
