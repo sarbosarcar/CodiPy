@@ -2,33 +2,24 @@
 
 ![](https://github.com/sarbosarcar/CodiPy/blob/main/static/codipy.png)
 
-## A GUI-based code generation platform built with OpenAI API using the Codex model
-#### *Constructed in partial fulfilment of the CS year-end project 2022-23*
-
-![image](https://user-images.githubusercontent.com/70145448/192116144-0db7e96b-17ed-4114-9ae6-448296039f0a.png)
-
+## Overview
++ A GUI-based code generation platform built with OpenAI API using the Codex model
 
 ## Prerequisites
 + Python (preferably v3.9+) [see list of dependencies](requirements.txt)
-+ Browser (preferably Chrome, Edge, Opera, Firefox or Safari)
-+ Internet connectivity
++ OpenAI API access (along with access to the Codex model)
 
-## Access
+## Usage Guidelines
 
 + Download the project file [here](https://github.com/SarboSarcar/Flask-CS-proj/archive/refs/heads/main.zip)
-+ View deployed version at *coming soon*
++ Run the file [app.py](https://github.com/sarbosarcar/CodiPy/blob/main/app.py)
++ Once the server is up and running, visit the concerned routes and follow the instructions provided on the page. The GUI includes the main query page.
 
-## Usage
-+ Once the server is up and running, visit the concerned routes and follow the instructions provided on the page. The GUI includes a login/signup page, the main query page and an about page.
+## Credits
 
-## Acknowledgements
++ [Bootstrap](https://getbootstrap.com/docs/4.0/components/jumbotron/) for the main jumbotron theme
++ [Darkmodejs](https://darkmodejs.learn.uno/) for the dark mode toggle button
++ [Highlightjs](https://highlightjs.org/) for the syntax highlighting
 
-+ Bootstrap for the main jumbotron theme
-+ Darkmodejs for the dark mode toggle button
-+ Highlightjs for the syntax highlighting
-
-## License
-
-+ Code open-sourced under the [MIT License](LICENSE)
 
 
